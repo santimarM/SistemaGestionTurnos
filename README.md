@@ -1,4 +1,4 @@
-# SistemaGestionTurnos - Diseño de Sistema
+# **SistemaGestionTurnos - Diseño de Sistema**
 
 **Apellido:** Medel Marquez
 
@@ -11,3 +11,6 @@
 **Profesor:** Matias Velasquez
 
 **Año:** 2025
+
+# **Introduccion**
+
