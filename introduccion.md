@@ -32,7 +32,7 @@ El encapsulamiento proporciona varios beneficios, incluyendo:
 
 La herencia es un concepto fundamental en la Programación Orientada a Objetos (POO) que permite crear nuevos objetos a partir de objetos existentes, heredando sus propiedades y comportamientos.
 
-# **Beneficios de la Herencia**
+**Beneficios de la Herencia**
 
 La herencia permite:
 
@@ -44,7 +44,7 @@ La herencia permite:
  # **Polimorfismo**
 El polimorfismo es la capacidad de un objeto de tomar diferentes formas y comportamientos dependiendo del contexto en el que se utilice.
 
-# **Beneficios Polimorfismo**
+ **Beneficios Polimorfismo**
 
 - Mayor flexibilidad y reutilización de código
 - Permite tratar objetos de diferentes clases de manera uniforme
@@ -54,7 +54,7 @@ El polimorfismo es la capacidad de un objeto de tomar diferentes formas y compor
 
 La abstracción es la capacidad de enfocarse en los aspectos esenciales de un objeto o sistema y ignorar los detalles irrelevantes.
 
-# **Beneficios Abstracción**
+ **Beneficios Abstracción**
 
 - Simplifica la complejidad de los sistemas
 - Permite enfocarse en los aspectos importantes
