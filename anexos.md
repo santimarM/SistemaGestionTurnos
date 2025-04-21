@@ -1,4 +1,5 @@
 # **SistemaGestionTurnos**
 Este proyecto tiene como objetivo desarrollar un sistema de gestion de turnos.
 
-*  [Introduccion](https://github.com/santimarM/SistemaGestionTurnos/blob/main/introduccion.md)
+* [Anexo - Introducción al Diseño Orientado a Objetos](https://github.com/santimarM/SistemaGestionTurnos/blob/main/introduccion.md)
+* [ Anexo - Principios SOLID]()
