@@ -22,4 +22,4 @@ El sistema debe ser capaz de enviar notificaciones automáticas a pacientes y pr
 
 # **Diagramas y diseños**
 * anexos.md
-* s
+* 
