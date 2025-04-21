@@ -41,7 +41,7 @@ La herencia permite:
 - Especializar objetos en subclases
 - Mayor flexibilidad y mantenibilidad
 
-  **Polimorfismo**
+**Polimorfismo**
 El polimorfismo es la capacidad de un objeto de tomar diferentes formas y comportamientos dependiendo del contexto en el que se utilice.
 
  **Beneficios Polimorfismo**
@@ -50,7 +50,7 @@ El polimorfismo es la capacidad de un objeto de tomar diferentes formas y compor
 - Permite tratar objetos de diferentes clases de manera uniforme
 - Facilita la creación de programas más genéricos y adaptables
 
-  **Abstracción**
+**Abstracción**
 
 La abstracción es la capacidad de enfocarse en los aspectos esenciales de un objeto o sistema y ignorar los detalles irrelevantes.
 
