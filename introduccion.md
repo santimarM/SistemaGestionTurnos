@@ -14,7 +14,7 @@ La POO es importante porque permite:
 - Reducir la complejidad del código y mejorar su mantenibilidad
 
   
-# *Los cuatro fundamentos de la POO*
+# **Los cuatro fundamentos de la POO**
 
 # **Encapsulamiento**
 
