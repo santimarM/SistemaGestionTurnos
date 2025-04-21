@@ -66,19 +66,23 @@ La abstracción es la capacidad de enfocarse en los aspectos esenciales de un ob
 
 **1. Registro de Pacientes y Profesionales**
 - El sistema debe permitir registrar información de pacientes y profesionales de la salud, incluyendo datos de contacto y detalles relevantes.
+
 **2. Asignación de Turnos**
 - El sistema debe permitir asignar turnos a pacientes con profesionales de la salud específicos, teniendo en cuenta la disponibilidad de los profesionales y los horarios de atención.
+
 **3. Gestión de Turnos**
 - El sistema debe permitir gestionar turnos, incluyendo la capacidad de:
 - Verificar la disponibilidad de turnos
 - Reservar turnos
 - Cancelar turnos
 - Modificar turnos
+
 **4. Notificaciones y Alertas**
 - El sistema debe enviar notificaciones y alertas a pacientes y profesionales de la salud sobre:
 - Confirmación de turnos
 - Cancelación de turnos
 - Modificación de turnos
+
 **5. Historial de Turnos**
 - El sistema debe mantener un registro histórico de turnos asignados y realizados, permitiendo a los profesionales de la salud y pacientes acceder a información sobre turnos anteriores.
 
