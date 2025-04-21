@@ -88,5 +88,67 @@ La abstracción es la capacidad de enfocarse en los aspectos esenciales de un ob
 
 Estos requisitos funcionales son fundamentales para garantizar que el sistema de gestión de turnos médicos sea efectivo y eficiente en la gestión de la atención médica.
 
-  
+# **Casos de Uso del Sistema de Gestión de Turnos Médicos**
+
+# **Caso de Uso 1: Registrar Paciente**
+
+- Nombre del caso de uso: Registrar Paciente
+- Actor(es) involucrado(s): Recepcionista
+- Descripción breve: Registrar información de un paciente nuevo en el sistema.
+- Flujo principal de eventos:
+1. Ingresar al sistema y seleccionar "Registrar Paciente".
+2. Ingresar información del paciente.
+3. Verificar y confirmar la información.
+4. Registrar al paciente en el sistema.
+- Precondiciones: La recepcionista debe tener acceso al sistema.
+- Postcondiciones: El paciente está registrado en el sistema.
+
+# **Caso de Uso 2: Asignar Turno**
+
+- Nombre del caso de uso: Asignar Turno
+- Actor(es) involucrado(s): Recepcionista
+- Descripción breve: Asignar un turno a un paciente con un profesional de la salud específico.
+- Flujo principal de eventos:
+1. Ingresar al sistema y seleccionar "Asignar Turno".
+2. Seleccionar paciente y profesional de la salud.
+3. Asignar turno y confirmar.
+4. Enviar notificación al paciente y al profesional de la salud.
+- Precondiciones: El paciente y el profesional de la salud deben estar registrados en el sistema.
+- Postcondiciones: El turno está asignado y se envió una notificación.
+
+# **Caso de Uso 3: Verificar Disponibilidad de Turnos**
+
+- Nombre del caso de uso: Verificar Disponibilidad de Turnos
+- Actor(es) involucrado(s): Paciente, Recepcionista
+- Descripción breve: Verificar la disponibilidad de turnos para un profesional de la salud específico.
+- Flujo principal de eventos:
+1. Ingresar al sistema y seleccionar "Verificar Disponibilidad de Turnos".
+2. Seleccionar profesional de la salud y fecha.
+3. Verificar disponibilidad de turnos.
+- Precondiciones: El profesional de la salud debe estar registrado en el sistema.
+- Postcondiciones: Se muestra la disponibilidad de turnos.
+
+# **Caso de Uso 4: Cancelar Turno**
+
+- Nombre del caso de uso: Cancelar Turno
+- Actor(es) involucrado(s): Recepcionista, Paciente
+- Descripción breve: Cancelar un turno asignado.
+- Flujo principal de eventos:
+1. Ingresar al sistema y seleccionar "Cancelar Turno".
+2. Seleccionar turno a cancelar.
+3. Confirmar cancelación.
+4. Enviar notificación al paciente y al profesional de la salud.
+- Precondiciones: El turno debe estar asignado y no haber sido realizado.
+- Postcondiciones: El turno está cancelado y se envió una notificación.
+
+# **Caso de Uso 5: Ver Historial de Turnos**
+
+- Nombre del caso de uso: Ver Historial de Turnos
+- Actor(es) involucrado(s): Paciente, Profesional de la Salud
+- Descripción breve: Ver el historial de turnos asignados y realizados.
+- Flujo principal de eventos:
+1. Ingresar al sistema y seleccionar "Ver Historial de Turnos".
+2. Ver historial de turnos.
+- Precondiciones: El paciente o el profesional de la salud debe estar registrado en el sistema.
+- Postcondiciones: Se muestra el historial de turnos.
 
