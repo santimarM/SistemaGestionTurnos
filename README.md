@@ -8,6 +8,6 @@
 
 **Carrera:**  Tecnicatura en programacion de sistemas 
 
-**Profesor:*+ Matias Velasquez
+**Profesor:** Matias Velasquez
 
 **Año:** 2025
