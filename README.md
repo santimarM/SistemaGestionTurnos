@@ -1,5 +1,7 @@
 # SistemaGestionTurnos - Diseño de Sistema
-Apellido Nombre: Santiago Medel Marquez
-Materia Carrera: Diseño Orientado a Objetos- Tecnicatura en programacion de sistemas 
+*Apellido:* Medel Marquez
+*Nombre:* Santiago Medel Marquez
+*Materia:* Diseño Orientado a Objetos
+*Carrera:*  Tecnicatura en programacion de sistemas 
 Profesor: Matias Velasquez
-Año: 1ero
+Año: 2025
