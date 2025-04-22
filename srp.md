@@ -1,6 +1,6 @@
 # **Principio de Responsabilidad Única (SRP)**
 
-# **Propósito y Tipo del Principio SOLID**
+ **Propósito y Tipo del Principio SOLID**
 
 El Principio de Responsabilidad Única (SRP) es un principio fundamental en el diseño de software que establece que una clase debe tener una sola responsabilidad y razón para cambiar. Esto significa que una clase debe tener una única función o propósito y no debe estar sobrecargada con múltiples responsabilidades que puedan cambiar por diferentes razones.
 
