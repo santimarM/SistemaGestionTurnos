@@ -12,5 +12,7 @@ El problema que enfrentaba el sistema era que las clases estaban sobrecargadas c
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio SRP:
 
+  [Diagrama UML](https://github.com/santimarM/SistemaGestionTurnos/blob/main/anexos.md)
+
 
 
