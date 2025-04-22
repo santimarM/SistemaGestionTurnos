@@ -4,7 +4,7 @@ Los principios SOLID son un conjunto de directrices para el diseño de software 
 
 ● [ Responsabilidad Única (SRP)](https://github.com/santimarM/SistemaGestionTurnos/blob/main/srp.md)
 
-● [Abierto/Cerrado (OCP) ]()
+● [Abierto/Cerrado (OCP) ](https://github.com/santimarM/SistemaGestionTurnos/blob/main/ocp.md)
 
 ● [Sustitución de Liskov (LSP)]()
 
