@@ -2,7 +2,7 @@
 
 Los principios SOLID son un conjunto de directrices para el diseño de software orientado a objetos que promueven la mantenibilidad, escalabilidad y flexibilidad del código. Estos principios son:
 
-● [ Responsabilidad Única (SRP)]()
+● [ Responsabilidad Única (SRP)](https://github.com/santimarM/SistemaGestionTurnos/blob/main/srp.md)
 
 ● [Abierto/Cerrado (OCP) ]()
 
