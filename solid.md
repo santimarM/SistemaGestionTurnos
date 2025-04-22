@@ -10,4 +10,4 @@ Los principios SOLID son un conjunto de directrices para el diseño de software 
 
 ● [Segregación de Interfaces (ISP)](https://github.com/santimarM/SistemaGestionTurnos/blob/main/isp.md)
 
-● [ Inversión de Dependencias (DIP)]()
+● [ Inversión de Dependencias (DIP)](https://github.com/santimarM/SistemaGestionTurnos/blob/main/dip.md)
