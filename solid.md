@@ -6,7 +6,7 @@ Los principios SOLID son un conjunto de directrices para el diseño de software 
 
 ● [Abierto/Cerrado (OCP) ](https://github.com/santimarM/SistemaGestionTurnos/blob/main/ocp.md)
 
-● [Sustitución de Liskov (LSP)]()
+● [Sustitución de Liskov (LSP)](https://github.com/santimarM/SistemaGestionTurnos/blob/main/lsp.md)
 
 ● [Segregación de Interfaces (ISP)]()
 
