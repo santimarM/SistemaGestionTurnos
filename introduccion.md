@@ -152,3 +152,8 @@ Estos requisitos funcionales son fundamentales para garantizar que el sistema de
 - Precondiciones: El paciente o el profesional de la salud debe estar registrado en el sistema.
 - Postcondiciones: Se muestra el historial de turnos.
 
+  # **Boceto inicial del diseño de clases**
+
+  [boceto final  drawio](https://github.com/user-attachments/assets/cc5f17cd-8ed8-4d30-8448-5e7c9d31ea94)
+
+
