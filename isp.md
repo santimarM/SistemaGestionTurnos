@@ -11,4 +11,5 @@ El problema que enfrentaba el sistema era que las interfaces eran demasiado gene
 **Estructura de Clases**
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio ISP
+
  [Diagrama UML](https://github.com/user-attachments/assets/f2ada9b4-7b52-4eec-9ab5-a3c3388348a9)
