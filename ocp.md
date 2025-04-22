@@ -14,4 +14,3 @@ A continuación, se muestra un diagrama UML que ilustra cómo las clases princip
 
  [Diagrama UML](https://github.com/user-attachments/assets/f00b6cae-3929-41f2-94b8-2107da6edaeb)
 
- [OCP](ocp.drawio.png)
