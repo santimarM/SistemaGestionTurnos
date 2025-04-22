@@ -12,4 +12,5 @@ El problema que enfrentaba el sistema era que las clases derivadas no se comport
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio LSP:
 
- [Diagrama UML]()
+ [Diagrama UML](https://github.com/user-attachments/assets/cc9fe5f1-e4eb-48cf-ba1d-4b01633f6bae)
+
