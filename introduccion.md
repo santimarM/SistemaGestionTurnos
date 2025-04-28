@@ -154,6 +154,6 @@ Estos requisitos funcionales son fundamentales para garantizar que el sistema de
 
   # **Boceto inicial del diseño de clases**
 
-  [boceto final  drawio](https://github.com/user-attachments/assets/cc5f17cd-8ed8-4d30-8448-5e7c9d31ea94)
+  [boceto final ](https://github.com/user-attachments/assets/cc5f17cd-8ed8-4d30-8448-5e7c9d31ea94)
 
 
