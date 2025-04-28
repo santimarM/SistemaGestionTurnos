@@ -24,5 +24,5 @@ El sistema debe ser capaz de enviar notificaciones automáticas a pacientes y pr
 *  [Anexo](https://github.com/santimarM/SistemaGestionTurnos/blob/main/anexos.md)
 *  [Diagrama UML](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramasUML.md)
 *  [Heramientas Agile](https://github.com/santimarM/SistemaGestionTurnos/blob/main/herramientas_agile.md)
-*  [Boceto del Sistema ]((https://github.com/user-attachments/assets/cc5f17cd-8ed8-4d30-8448-5e7c9d31ea94))
+*  [Boceto del Sistema ](https://github.com/user-attachments/assets/cc5f17cd-8ed8-4d30-8448-5e7c9d31ea94)
 
