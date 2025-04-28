@@ -1,6 +1,16 @@
-# **Diagramas de Casos de Uso**
+# Diagramas de Casos de Uso
 
 ## Lista de Casos de Uso Desarrollados
+
+- Caso de Uso 1 - Registrar Usuario
+- Caso de Uso 2 - Asignar Turno
+- Caso de Uso 3 - Verificar Disponibilidad de Turnos
+- Caso de Uso 4 - Cancelar Turno
+- Caso de Uso 5 - Historial de Turnos
+
+## Diagrama de Casos de Uso
+
+A continuación se presenta el diagrama de casos de uso del sistema:
 
 [Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/161234eb-d42d-43b1-aab3-43ef53e613da)
 
