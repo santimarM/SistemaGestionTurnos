@@ -1,17 +1,7 @@
 **Tarjeta CRC 1: Paciente**
+[Tarjeta CRC 1_ Paciente.xlsx](https://github.com/user-attachments/files/19963950/Tarjeta.CRC.1_.Paciente.xlsx)
 
-- Nombre de la clase: Paciente
-- Superclase: Persona
-- Subclase: Ninguna
-- Pensamiento del objeto: Representa a un paciente que se registra en el sistema y solicita turnos con profesionales de la salud.
-- Responsabilidades principales:
-- Registrar información personal
-- Solicitar turnos con profesionales de la salud
-- Verificar disponibilidad de turnos
-- Colaboraciones con otras clases:
-- ProfesionalDeLaSalud
-- Turno
-- Propiedad a la que se referenciará: Identificador de paciente, nombre, fecha de nacimiento, dirección, teléfono.
+
 
 **Tarjeta CRC 2: ProfesionalDeLaSalud**
 
