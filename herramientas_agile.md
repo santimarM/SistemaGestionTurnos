@@ -1,5 +1,5 @@
 # **Herramientas Agile**
-● Tarjetas CRC
+● Tarjetas CRC (https://github.com/santimarM/SistemaGestionTurnos/blob/main/Tarjetas%20CRC)
 
 
 **Tarjeta CRC 1: Paciente**
