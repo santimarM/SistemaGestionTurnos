@@ -1,9 +1,3 @@
-# **Escenarios de Casos de Uso**
-1. **Caso de Uso 1** – Registrar Paciente
-2. **Caso de Uso 2** – Asignar turno
-3. **Caso de Uso 3** – Verificar disponibilidad de turnos
-4. **Caso de Uso 4** – Cancelar turno
-5. **Caso de Uso 5** – Historial de turnos
 
 [Caso de Uso 1 -Registrar Paciente 1.](https://github.com/user-attachments/files/19839447/Caso.de.Uso.1.-Registrar.Paciente.1.xlsx)
 
