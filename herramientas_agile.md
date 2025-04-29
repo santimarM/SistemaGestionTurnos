@@ -15,6 +15,7 @@ En el desarrollo del proyecto, se han utilizado las siguientes herramientas ági
 - **Scrum Guide**: Guía oficial de la metodología Scrum, consultada como referencia para la implementación de prácticas ágiles en el proyecto.  
   [https://scrumguides.org](https://scrumguides.org)
 
+-# **Tarjetas CRC**
 [Trajetas CRC](https://github.com/santimarM/SistemaGestionTurnos/blob/main/TarjetasCRC.md)
 
 
