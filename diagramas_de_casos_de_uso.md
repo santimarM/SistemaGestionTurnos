@@ -12,7 +12,7 @@
 
 A continuación se presenta el diagrama de casos de uso del sistema:
 
-[Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/161234eb-d42d-43b1-aab3-43ef53e613da)
+[Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/8b430f3a-27f5-4bbf-86a7-cb8b5ff71de4)
 
 [Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/c3043f9d-084d-4c8a-b665-e303b8df19f4)
 
