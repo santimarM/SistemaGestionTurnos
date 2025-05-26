@@ -93,3 +93,8 @@ _Ejemplo:_ Un método `mostrarPerfil()` puede tener un comportamiento diferente 
 
 ## Boceto Inicial del Diseño de Clases
 
+
+![Boceto](https://github.com/user-attachments/assets/872c14fd-c740-4918-a592-d8b4cf84ee53)
+
+🔗 [Boceto en línea (Excalidraw)](https://excalidraw.com/#json=tuIDjson)
+
