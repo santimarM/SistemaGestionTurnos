@@ -14,10 +14,11 @@ A continuación se presenta el diagrama de casos de uso del sistema:
 
 [Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/8b430f3a-27f5-4bbf-86a7-cb8b5ff71de4)
 
-[Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/c3043f9d-084d-4c8a-b665-e303b8df19f4)
+[Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/2d0c72eb-8f82-49dd-996f-6603836fbad8)
 
-[Caso de Uso 3- Verificar Disponibilidad de Turnos](https://github.com/user-attachments/assets/15ff8d0c-d9aa-4791-ac07-7bcb3fbdd1ce)
+[Caso de Uso 3- Verificar Disponibilidad de Turnos](https://github.com/user-attachments/assets/8cbbf9df-6f6b-4b24-9e56-215df27b432e)
 
-[Caso de Uso 4 - Cancelar Turno ](https://github.com/user-attachments/assets/a688a0b4-f9d2-417a-97b9-b3734ab97f94)
+[Caso de Uso 4 - Cancelar Turno ](https://github.com/user-attachments/assets/609d3eef-9ef1-44e7-94ee-19963e3bdf0c)
 
-[Caso de Uso 5 - Historial de Turnos  ](https://github.com/user-attachments/assets/e59b6244-4848-4ab3-bd13-c92064cc0124)
+[Caso de Uso 5 - Historial de Turnos  ](https://github.com/user-attachments/assets/81cbc07a-3edf-4012-8345-ea4e984bcc3e)
+
