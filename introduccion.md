@@ -1,87 +1,95 @@
 # Anexo - Introducción al Diseño Orientado a Objetos
 
-## ¿Qué es la Programación Orientada a Objetos?
+## ¿Qué es la Programación Orientada a Objetos (POO)?
 
-La Programación Orientada a Objetos (POO) es un paradigma de programación basado en la creación de objetos que representan entidades del mundo real. Cada objeto tiene atributos (características) y métodos (comportamientos). Este enfoque facilita la organización del código, su reutilización y el mantenimiento del software a lo largo del tiempo.
+La POO es un paradigma de programación que organiza el software en objetos, los cuales combinan datos (atributos) y comportamientos (métodos). Este enfoque permite modelar el mundo real de manera más natural, facilitando el mantenimiento y la reutilización del código.
 
-## Los cuatro fundamentos de POO (con ejemplos reales)
+## Importancia
 
-### 1. Abstracción
-Permite centrarse en los aspectos esenciales de un objeto.  
-**Ejemplo**: Un turno médico solo necesita conocer la fecha, la hora, el paciente y el médico asignado, no todos los detalles personales del paciente.
+- Promueve el diseño modular.
+- Favorece la reutilización mediante la herencia.
+- Facilita el mantenimiento y la escalabilidad.
+- Permite representar sistemas complejos de forma clara y estructurada.
 
-### 2. Encapsulamiento
-Protege los datos internos del objeto y solo expone lo necesario.  
-**Ejemplo**: La información de contacto de un paciente está protegida; solo personal autorizado puede acceder a ella.
+---
 
-### 3. Herencia
-Permite que una clase hija reutilice atributos y métodos de una clase padre.  
-**Ejemplo**: `Paciente` y `Médico` pueden heredar de una clase `Persona`.
+## Los Cuatro Fundamentos de la POO
 
-### 4. Polimorfismo
-Distintas clases pueden responder de forma diferente a un mismo mensaje.  
-**Ejemplo**: El método `enviarNotificacion()` puede actuar diferente si el canal es correo o SMS.
+### 1. **Abstracción**
+Permite representar objetos del mundo real destacando solo los detalles relevantes.
 
-## Requisitos Funcionales del Sistema
+_Ejemplo:_ Un paciente es representado por su nombre, DNI y contacto, sin necesidad de incluir otros aspectos como su dirección postal o estado civil.
 
-1. Registrar pacientes con nombre, DNI, fecha de nacimiento y contacto.
-2. Registrar médicos con nombre, matrícula, especialidad, horario y contacto.
-3. Agendar turnos asegurando que no se superpongan.
-4. Guardar motivo y observaciones para cada turno.
-5. Enviar notificaciones automáticas al confirmar, modificar o cancelar turnos.
+### 2. **Encapsulamiento**
+Oculta la implementación interna de un objeto, exponiendo solo lo necesario mediante métodos públicos.
+
+_Ejemplo:_ El historial de turnos de un paciente no puede modificarse directamente, sino mediante métodos específicos.
+
+### 3. **Herencia**
+Permite que una clase herede atributos y métodos de otra, promoviendo la reutilización.
+
+_Ejemplo:_ `Usuario` puede ser una clase genérica, y `Paciente` y `Médico` heredan de ella.
+
+### 4. **Polimorfismo**
+Permite que un mismo método se comporte de distintas formas según el objeto que lo invoque.
+
+_Ejemplo:_ Un método `mostrarPerfil()` puede tener un comportamiento diferente si lo ejecuta un paciente o un médico.
+
+---
+
+## Requisitos Funcionales Iniciales del Sistema
+
+1. Registrar pacientes y profesionales de la salud.
+2. Asignar turnos según disponibilidad.
+3. Enviar notificaciones por cambios en los turnos.
+4. Evitar superposición de turnos por médico.
+5. Consultar historial de turnos de cada paciente.
+
+---
 
 ## Casos de Uso
 
-### 1. Registrar Paciente
-- **Actor**: Recepcionista  
-- **Descripción**: Registrar un nuevo paciente.  
-- **Flujo principal**:
-  1. Ingresar nombre, DNI, fecha de nacimiento y contacto.
-  2. Verificar que no esté registrado.
-  3. Guardar paciente.
-- **Precondición**: Paciente no registrado.  
-- **Postcondición**: Paciente registrado en el sistema.
+### Caso de Uso 1: Registrar Paciente
 
-### 2. Registrar Médico
-- **Actor**: Administrador  
-- **Descripción**: Añadir un nuevo profesional al sistema.  
-- **Flujo principal**:
-  1. Ingresar nombre, matrícula, especialidad, contacto y horario.
-  2. Guardar médico.
-- **Precondición**: Médico no registrado.  
-- **Postcondición**: Médico disponible para asignación de turnos.
+- **Actor:** Recepcionista
+- **Descripción breve:** Permite dar de alta a un nuevo paciente.
+- **Flujo principal:** El recepcionista ingresa los datos, el sistema valida y guarda.
+- **Precondición:** El paciente no debe estar registrado.
+- **Postcondición:** El paciente queda registrado en el sistema.
 
-### 3. Asignar Turno
-- **Actor**: Recepcionista / Paciente  
-- **Descripción**: Reservar turno para una consulta médica.  
-- **Flujo principal**:
-  1. Seleccionar médico disponible.
-  2. Elegir fecha y hora.
-  3. Registrar motivo y observaciones.
-- **Precondición**: Médico y paciente registrados.  
-- **Postcondición**: Turno agendado correctamente.
+### Caso de Uso 2: Asignar Turno
 
-### 4. Cancelar Turno
-- **Actor**: Paciente / Recepcionista  
-- **Descripción**: Eliminar turno programado.  
-- **Flujo principal**:
-  1. Buscar turno.
-  2. Confirmar cancelación.
-- **Precondición**: Turno confirmado.  
-- **Postcondición**: Turno cancelado.
+- **Actor:** Paciente / Recepcionista
+- **Descripción breve:** Se asigna un turno con un profesional.
+- **Flujo principal:** Se selecciona médico, fecha y hora, el sistema verifica disponibilidad y guarda.
+- **Precondición:** El paciente debe estar registrado.
+- **Postcondición:** Turno registrado y confirmado.
 
-### 5. Enviar Notificación
-- **Actor**: Sistema  
-- **Descripción**: Informar por correo o SMS una modificación de turno.  
-- **Flujo principal**:
-  1. Detectar cambio en estado del turno.
-  2. Enviar notificación al paciente y al médico.
-- **Precondición**: Turno modificado o confirmado.  
-- **Postcondición**: Notificación enviada.
+### Caso de Uso 3: Cancelar Turno
+
+- **Actor:** Paciente / Médico / Recepcionista
+- **Descripción breve:** Permite cancelar un turno ya asignado.
+- **Flujo principal:** Se selecciona el turno y se cambia el estado a "Cancelado".
+- **Precondición:** Turno debe existir.
+- **Postcondición:** Turno queda cancelado.
+
+### Caso de Uso 4: Consultar Historial Médico
+
+- **Actor:** Médico
+- **Descripción breve:** Accede al historial de turnos de un paciente.
+- **Flujo principal:** Se selecciona el paciente y se muestra su historial.
+- **Precondición:** Médico autenticado y paciente registrado.
+- **Postcondición:** Historial visualizado.
+
+### Caso de Uso 5: Notificar Cambios
+
+- **Actor:** Sistema
+- **Descripción breve:** Envía notificación automática por cambios en turnos.
+- **Flujo principal:** Ante cambio de estado, se envía email/SMS.
+- **Precondición:** Cambio en turno confirmado.
+- **Postcondición:** Notificación enviada.
+
+---
 
 ## Boceto Inicial del Diseño de Clases
-
-![Diagrama de clases](imagenes/diagrama_clases_inicial.png)
-
-[Ver diseño en línea (Excalidraw)](https://excalidraw.com/#json=agrega-tu-enlace-aquí)
 
