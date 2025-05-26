@@ -32,6 +32,7 @@ Este sistema está diseñado para digitalizar la gestión de turnos de un centro
 *  [Anexo](https://github.com/santimarM/SistemaGestionTurnos/blob/main/anexos.md)
 *  [Diagrama UML](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramasUML.md)
 *  [Heramientas Agile](https://github.com/santimarM/SistemaGestionTurnos/blob/main/herramientas_agile.md)
-*  [Boceto del sistema](https://github.com/santimarM/SistemaGestionTurnos/blob/main/boceto%20final.png)
+*  [Boceto del sistema](https://github.com/user-attachments/assets/872c14fd-c740-4918-a592-d8b4cf84ee53)
+
 
 
