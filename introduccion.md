@@ -13,31 +13,37 @@ La POO es un paradigma de programación que organiza el software en objetos, los
 
 ---
 
-## Los Cuatro Fundamentos de la POO
+---
 
-### 1. **Abstracción**
+## Fundamentos de la Programación Orientada a Objetos (POO)
+
+### 1. Abstracción
+
 Permite representar objetos del mundo real destacando solo los detalles relevantes.
 
-_Ejemplo:_ Un paciente es representado por su nombre, DNI y contacto, sin necesidad de incluir otros aspectos como su dirección postal o estado civil.
+*Ejemplo:* Un paciente se representa por su nombre, DNI y contacto, sin incluir detalles innecesarios como su dirección postal.
 
-### 2. **Encapsulamiento**
+### 2. Encapsulamiento
+
 Oculta la implementación interna de un objeto, exponiendo solo lo necesario mediante métodos públicos.
 
-_Ejemplo:_ El historial de turnos de un paciente no puede modificarse directamente, sino mediante métodos específicos.
+*Ejemplo:* El historial de turnos de un paciente no puede modificarse directamente, sino mediante métodos específicos.
 
-### 3. **Herencia**
+### 3. Herencia
+
 Permite que una clase herede atributos y métodos de otra, promoviendo la reutilización.
 
-_Ejemplo:_ `Usuario` puede ser una clase genérica, y `Paciente` y `Médico` heredan de ella.
+*Ejemplo:* La clase `Usuario` puede ser genérica, y `Paciente` y `Médico` heredan de ella.
 
-### 4. **Polimorfismo**
+### 4. Polimorfismo
+
 Permite que un mismo método se comporte de distintas formas según el objeto que lo invoque.
 
-_Ejemplo:_ Un método `mostrarPerfil()` puede tener un comportamiento diferente si lo ejecuta un paciente o un médico.
+*Ejemplo:* Un método `mostrarPerfil()` puede tener un comportamiento diferente si lo ejecuta un paciente o un médico.
 
 ---
 
-## Requisitos Funcionales Iniciales del Sistema
+## Requisitos Funcionales del Sistema
 
 1. Registrar pacientes y profesionales de la salud.
 2. Asignar turnos según disponibilidad.
@@ -61,7 +67,7 @@ _Ejemplo:_ Un método `mostrarPerfil()` puede tener un comportamiento diferente 
 
 - **Actor:** Paciente / Recepcionista
 - **Descripción breve:** Se asigna un turno con un profesional.
-- **Flujo principal:** Se selecciona médico, fecha y hora, el sistema verifica disponibilidad y guarda.
+- **Flujo principal:** Se selecciona médico, fecha y hora; el sistema verifica disponibilidad y guarda.
 - **Precondición:** El paciente debe estar registrado.
 - **Postcondición:** Turno registrado y confirmado.
 
@@ -93,8 +99,7 @@ _Ejemplo:_ Un método `mostrarPerfil()` puede tener un comportamiento diferente 
 
 ## Boceto Inicial del Diseño de Clases
 
-
 ![Boceto](https://github.com/user-attachments/assets/872c14fd-c740-4918-a592-d8b4cf84ee53)
 
-🔗 [Boceto en línea (Excalidraw)](https://excalidraw.com/#json=tuIDjson)
+[Boceto en línea (Excalidraw)](https://excalidraw.com/#json=tuIDjson)
 
