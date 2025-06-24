@@ -1,0 +1,9 @@
+# Matriz CLAE
+
+| Caso de Uso                 | Actor        | Clases Involucradas               | Metodos Relevantes                        |
+|----------------------------|--------------|----------------------------------|-------------------------------------------|
+| Solicitar Turno            | Paciente     | Paciente, Profesional, Turno, SistemaTurnos | crearTurno(), validarDisponibilidad(), enviarNotificacion() |
+| Confirmar Turno            | Profesional  | Turno, SistemaTurnos, Notificador | confirmarTurno(), enviarNotificacion()    |
+| Cancelar Turno             | Paciente / Profesional | Turno, SistemaTurnos, Notificador | cancelarTurno(), enviarNotificacion()     |
+| Registrar Profesional      | Administrador| Profesional, SistemaTurnos        | registrarProfesional()                    |
+| Consultar Historial        | Paciente / Profesional | Turno, SistemaTurnos, Paciente    | verHistorial()                            |
