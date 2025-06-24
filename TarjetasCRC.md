@@ -19,3 +19,5 @@
 **Tarjeta CRC 5: Notificación**
 
 [Tarjeta CRC 5_ Notificación.xlsx](https://github.com/user-attachments/files/19964018/Tarjeta.CRC.5_.Notificacion.xlsx)
+
+[Plantilla CRC.xlsx](https://github.com/user-attachments/files/19965200/Encuentro.N.5.-.Plantilla.CRC.xlsx) 
