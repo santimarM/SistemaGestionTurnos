@@ -5,3 +5,5 @@
 [Escenarios de Casos de Uso](https://github.com/santimarM/SistemaGestionTurnos/blob/main/escenarios_de_casos_de_uso.md)
 
 [Diagrama de Actividades](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramas_de_actividades.md)
+
+[Diagrama de Secuencias](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramas_de_secuencias.md)
