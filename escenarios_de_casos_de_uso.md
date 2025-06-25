@@ -1,7 +1,7 @@
 ## Escenarios de Casos de Uso
 
 - **Caso de Uso 1 – Registrar Paciente**
-- [Caso de Uso 1 -Registrar Paciente 1.](https://github.com/user-attachments/files/19839447/Caso.de.Uso.1.-Registrar.Paciente.1.xlsx)
+- ![Caso de Uso 1 -Registrar Paciente 1.](https://github.com/user-attachments/files/19839447/Caso.de.Uso.1.-Registrar.Paciente.1.xlsx)
   - Registrar Paciente – Registro exitoso de nuevo paciente
   - Registrar Paciente – Error en validación de datos del paciente
   - Registrar Paciente – Registro de paciente con DNI ya existente
