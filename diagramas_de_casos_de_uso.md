@@ -8,13 +8,13 @@ Se presentan los diagramas principales de interacción del sistema:
 - **Actores:** Paciente, Sistema
 - **Descripción:** El paciente se registra en el sistema para poder solicitar turnos.
 
-[Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/8b430f3a-27f5-4bbf-86a7-cb8b5ff71de4)
+![Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/8b430f3a-27f5-4bbf-86a7-cb8b5ff71de4)
 ---
 
 ## 2. Solicitar Turno
 - **Actores:** Paciente, Sistema
 - **Descripción:** El paciente solicita un turno con un médico según la disponibilidad.
-[Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/2d0c72eb-8f82-49dd-996f-6603836fbad8)
+![Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/2d0c72eb-8f82-49dd-996f-6603836fbad8)
 
 ---
 
@@ -22,7 +22,7 @@ Se presentan los diagramas principales de interacción del sistema:
 - **Actores:** Sistema, Médico
 - **Descripción:** El sistema notifica la confirmación del turno al paciente y al médico.
 
-[Caso de Uso 3- Confirmar Turno](https://github.com/user-attachments/assets/8cbbf9df-6f6b-4b24-9e56-215df27b432e)
+![Caso de Uso 3- Confirmar Turno](https://github.com/user-attachments/assets/8cbbf9df-6f6b-4b24-9e56-215df27b432e)
 
 ---
 
@@ -30,7 +30,7 @@ Se presentan los diagramas principales de interacción del sistema:
 - **Actores:** Paciente, Sistema
 - **Descripción:** El paciente puede cancelar su turno y el sistema lo notifica.
 
-[Caso de Uso 4 - Cancelar Turno ](https://github.com/user-attachments/assets/609d3eef-9ef1-44e7-94ee-19963e3bdf0c)
+![Caso de Uso 4 - Cancelar Turno ](https://github.com/user-attachments/assets/609d3eef-9ef1-44e7-94ee-19963e3bdf0c)
 ---
 
 ## 5. Consultar Historial
