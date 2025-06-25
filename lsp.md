@@ -1,14 +1,13 @@
-# **Principio de Sustitución de Liskov (LSP)**
+# Principio de Sustitución de Liskov (LSP)
 
-**Propósito y Tipo del Principio SOLID**
+### Propósito del Principio:
+Los objetos de una subclase deben poder sustituir a objetos de su superclase sin alterar el comportamiento esperado del sistema.
 
-El Principio de Sustitución de Liskov (LSP) es un principio fundamental en el diseño de software que establece que los objetos de un tipo deben ser reemplazables por objetos de sus subtipos sin afectar la corrección del programa. Esto significa que una clase derivada debe comportarse de manera consistente con su clase base.
+### Motivación:
+Si `Medico` y `Paciente` heredan de una clase `Usuario`, cualquier operación que funcione con `Usuario` debería funcionar correctamente con instancias de `Medico` o `Paciente`.
 
-# **Motivación**
-
-El problema que enfrentaba el sistema era que las clases derivadas no se comportaban de manera consistente con sus clases base, lo que provocaba errores y comportamientos inesperados. Por ejemplo, si una clase Ave tenía un método volar() y una clase Pinguino heredaba de Ave, pero no podía volar, esto podría provocar problemas si se utilizaba un objeto Pinguino en un contexto donde se esperaba un objeto Ave que pudiera volar.
-
-# **Estructura de Clases**
+### Aplicación:
+Se aseguraron los métodos comunes (`getNombre`, `getContacto`) en la superclase `Usuario`, evitando que las subclases necesiten redefinir comportamientos que rompan la funcionalidad general.
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio LSP:
 
