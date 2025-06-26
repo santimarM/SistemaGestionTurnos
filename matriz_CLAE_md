@@ -1,9 +1,13 @@
-# Matriz CLAE
+# Matriz CLAE - Sistema de Gestión de Turnos Médicos
 
-| Caso de Uso                 | Actor        | Clases Involucradas               | Metodos Relevantes                        |
-|----------------------------|--------------|----------------------------------|-------------------------------------------|
-| Solicitar Turno            | Paciente     | Paciente, Profesional, Turno, SistemaTurnos | crearTurno(), validarDisponibilidad(), enviarNotificacion() |
-| Confirmar Turno            | Profesional  | Turno, SistemaTurnos, Notificador | confirmarTurno(), enviarNotificacion()    |
-| Cancelar Turno             | Paciente / Profesional | Turno, SistemaTurnos, Notificador | cancelarTurno(), enviarNotificacion()     |
-| Registrar Profesional      | Administrador| Profesional, SistemaTurnos        | registrarProfesional()                    |
-| Consultar Historial        | Paciente / Profesional | Turno, SistemaTurnos, Paciente    | verHistorial()                            |
+| Caso de Uso                    | Actor       | Clase/s Involucradas | Método/s                                |
+|-------------------------------|-------------|----------------------|-----------------------------------------|
+| Solicitar Turno               | Paciente    | Turno, Paciente      | programar(fechaHora, paciente, medico) |
+| Cancelar Turno                | Paciente    | Turno                | cancelar()                             |
+| Confirmar Turno               | Médico      | Turno                | confirmar()                            |
+| Consultar Historial Médico    | Paciente    | Paciente             | obtenerHistorial()                     |
+| Activar o Desactivar Usuario  | Paciente    | Paciente             | activar(), desactivar()                |
+| Activar o Desactivar Médico   | Médico      | Médico               | activar(), desactivar()                |
+| Consultar Matrícula           | Médico      | Médico               | obtenerMatricula()                     |
+
+> Esta matriz resume la vinculación entre los casos de uso definidos, los actores del sistema, las clases necesarias para su implementación y los métodos involucrados. Cualquier nuevo método o clase detectada ha sido reflejada en el diagrama de clases.
