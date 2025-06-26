@@ -30,4 +30,5 @@ La agenda de turnos debe ser única y centralizada para que todos los módulos (
 ---
 
 ## Estructura de Clases (Diagrama UML)
+![diseñocreacional drawio](https://github.com/user-attachments/assets/9b2fb9c8-b0cd-4ca0-aeb2-fda3b5c913a5)
 
