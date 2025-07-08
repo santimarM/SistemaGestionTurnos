@@ -6,7 +6,7 @@ A través del diseño orientado a objetos, se busca aplicar buenas prácticas de
 
 ##  Boceto del Diagrama de Clases
 
-[Boceto del Diagrama de Clases](../assets/033dacd2-43f3-4ad8-aa95-5d6474e58314.png)
+[Boceto del Diagrama de Clases](https://github.com/user-attachments/assets/f15916fd-de0b-4543-bdb5-318664b02cbb)
 
 
 # **Diagramas y diseños**
