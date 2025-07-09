@@ -8,7 +8,7 @@ Se presentan los diagramas principales de interacción del sistema:
 - **Actores:** Paciente, Sistema
 - **Descripción:** El paciente se registra en el sistema para poder solicitar turnos.
 
-![Caso de Uso 1 - Registrar usuario]![diagrama 1 (1)](https://github.com/user-attachments/assets/6fdd43bb-6573-42a7-84ad-5361e2e9f434)
+![Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/6fdd43bb-6573-42a7-84ad-5361e2e9f434)
 
 
 ---
