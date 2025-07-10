@@ -6,7 +6,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ### Caso de Uso 1 – Registrar Paciente 
 
-##Escenario 1 - Registro exitoso de nuevo paciente
+## Escenario 1 - Registro exitoso de nuevo paciente ##
 
 -  Actor: Recepcionista  
 - Precondición: El paciente no debe estar registrado.  
@@ -19,7 +19,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 2 - Registrar Paciente – Error en validación de datos del paciente
+## Escenario 2 - Registrar Paciente – Error en validación de datos del paciente
 
 -  Actor: Recepcionista  
 -  Precondición: El paciente no debe estar registrado.  
