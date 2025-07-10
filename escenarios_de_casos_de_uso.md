@@ -1,8 +1,6 @@
 # Escenarios de Casos de Uso
 
-A continuación se presentan los diferentes escenarios derivados de cada caso de uso, siguiendo el formato: "Caso de Uso – Nombre del Escenario".
-
----
+A continuación se presentan los diferentes escenarios derivados de cada caso de uso
 
 ### Caso de Uso 1 – Registrar Paciente 
 
