@@ -32,7 +32,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 3 - Registrar Paciente – Paciente ya registrado
+## Escenario 3 - Registrar Paciente – Paciente ya registrado
 
 -  Actor: Recepcionista  
 -  Precondición: El paciente ya existe en la base de datos.  
@@ -47,7 +47,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ### Caso de Uso 2 – Asignar Turno 
 
-##Escenario 1 - Turno asignado exitosamente
+## Escenario 1 - Turno asignado exitosamente
 
 -  Actor: Paciente / Recepcionista  
 -  Precondición: El paciente está registrado y el médico tiene disponibilidad.  
@@ -60,7 +60,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 2 -  Asignar Turno – Médico sin disponibilidad
+## Escenario 2 -  Asignar Turno – Médico sin disponibilidad
 
 - Actor: Paciente / Recepcionista  
 -  Precondición: El paciente está registrado.  
@@ -73,7 +73,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 3 - Asignar Turno – Paciente no registrado
+## Escenario 3 - Asignar Turno – Paciente no registrado
 
 -  Actor: Paciente / Recepcionista  
 - Precondición: El paciente no está en el sistema.  
@@ -88,7 +88,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ### Caso de Uso 3 – Cancelar Turno 
 
-##Escenario 1 - Cancelación exitosa por paciente
+## Escenario 1 - Cancelación exitosa por paciente
 
 -  Actor: Paciente  
 -  Precondición: El paciente tiene un turno previamente registrado.  
@@ -101,7 +101,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 2 - Cancelar Turno – Cancelación por parte del médico
+## Escenario 2 - Cancelar Turno – Cancelación por parte del médico
 
 -  Actor: Médico  
 -  Precondición: El médico tiene un turno asignado con un paciente.  
@@ -114,7 +114,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 3 -  Cancelar Turno – Intento de cancelación de turno inexistente
+## Escenario 3 -  Cancelar Turno – Intento de cancelación de turno inexistente
 
 -  Actor: Paciente / Recepcionista  
 -  Precondición: El turno seleccionado no existe o ya fue cancelado previamente.  
@@ -128,7 +128,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ### Caso de Uso 4 – Consultar Historial Médico 
 
-##Escenario 1 – Visualización exitosa
+## Escenario 1 – Visualización exitosa
 
 -  Actor: Médico  
 -  Precondición: El médico está autenticado y el paciente está registrado.  
@@ -140,7 +140,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 2 - Consultar Historial Médico - Paciente sin historial
+## Escenario 2 - Consultar Historial Médico - Paciente sin historial
 
 -  Actor: Médico  
 -  Precondición: El paciente está registrado pero nunca tuvo turnos.  
@@ -152,7 +152,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 3 -  Consultar Historial Médico - Médico no autenticado
+## Escenario 3 -  Consultar Historial Médico - Médico no autenticado
 
 -  Actor: Médico  
 -  Precondición: El usuario no ha iniciado sesión.  
@@ -166,7 +166,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ## Caso de Uso 5 – Registrar Médico 
 
-##Escenario 1 - – Registro exitoso
+## Escenario 1 - – Registro exitoso
 
 - Actor: Recepcionista  
 - Precondición: El recepcionista está autenticado en el sistema.  
@@ -181,7 +181,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 2 -  Registrar Médico – Matrícula ya registrada
+## Escenario 2 -  Registrar Médico – Matrícula ya registrada
 
 - Actor: Recepcionista  
 - Precondición: El recepcionista está autenticado y existe un médico con esa matrícula.  
@@ -195,7 +195,7 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
 
 ---
 
-##Escenario 3 – Registrar Médico – Recepcionista no autenticado
+## Escenario 3 – Registrar Médico – Recepcionista no autenticado
 
 - Actor: Recepcionista  
 - Precondición: El usuario no inició sesión.  
