@@ -11,7 +11,9 @@ Se creó una clase `Notificacion` independiente que gestiona exclusivamente el e
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio SRP:
 
-  ![Diagrama UML](https://github.com/user-attachments/assets/53862668-8ec8-471e-b987-e0d524bf82c0)
+  ![Diagrama UML]<img width="590" height="250" alt="srp" src="https://github.com/user-attachments/assets/6869c572-d4aa-4b22-be4e-23465cc72ac4" />
+
+
 
 
 
