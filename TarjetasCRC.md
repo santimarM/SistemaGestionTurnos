@@ -2,23 +2,6 @@
 
 ---
 
-## Clase: Socio
-
-### Superclase:
-*(No definida)*
-
-### Subclase:
-*(No definida)*
-
-### Responsabilidades y Detalles
-
-| Responsabilidad                                      | Colaboradores | Pensamiento del objeto                                                                 | Propiedad   |
-|------------------------------------------------------|---------------|----------------------------------------------------------------------------------------|-------------|
-| Poder registrarse al Gimnasio                        | Recepcion     | Conozco mi DNI para registrarme                                                        | DNI         |
-| Poder reservar una clase                             | Clase         | Conozco mi nroCarnet para reservar una clase y verificar si tengo cuota mensual activa| nroCarnet   |
-
----
-
 ## Clase: Paciente
 
 ### Superclase:
@@ -89,5 +72,3 @@ Usuario
 | Cancelar turno existente                | Paciente      | Puedo encontrar y eliminar un turno si el paciente lo solicita     | turnosProgramados |
 | Verificar disponibilidad del médico     | Médico        | Accedo a la agenda del médico para ver si tiene horarios libres    | agendaMedica      |
 
-
-[Plantilla CRC.xlsx](https://github.com/user-attachments/files/19965200/Encuentro.N.5.-.Plantilla.CRC.xlsx) 
