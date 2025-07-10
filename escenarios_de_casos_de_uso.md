@@ -154,3 +154,44 @@ A continuación se presentan los diferentes escenarios derivados de cada caso de
   3. El sistema redirige a la pantalla de inicio de sesión.
 -  Postcondición: El historial no es mostrado.
 
+---
+
+## Caso de Uso 5 – Registrar Médico – Registro exitoso
+
+- Actor: Recepcionista  
+- Precondición: El recepcionista está autenticado en el sistema.  
+- Flujo:
+  1. El recepcionista accede a la opción “Registrar Médico”.
+  2. El sistema muestra el formulario de registro.
+  3. El recepcionista ingresa nombre, apellido, especialidad, matrícula, teléfono.
+  4. El sistema valida los datos ingresados.
+  5. La matrícula no está registrada.
+  6. El sistema registra al nuevo médico y confirma el alta.  
+- Postcondición: El médico queda registrado correctamente en el sistema.
+
+---
+
+## Caso de Uso 5 – Registrar Médico – Matrícula ya registrada
+
+- Actor: Recepcionista  
+- Precondición: El recepcionista está autenticado y existe un médico con esa matrícula.  
+- Flujo:
+  1. El recepcionista accede al formulario de “Registrar Médico”.
+  2. Ingresa los datos, incluyendo una matrícula ya existente.
+  3. El sistema valida los datos y detecta duplicado.
+  4. Se informa al recepcionista que la matrícula ya está registrada.
+  5. El sistema solicita cambiar la matrícula.  
+- Postcondición: El médico no es registrado y se evita duplicación.
+
+---
+
+## Caso de Uso 5 – Registrar Médico – Recepcionista no autenticado
+
+- Actor: Recepcionista  
+- Precondición: El usuario no inició sesión.  
+- Flujo:
+  1. El recepcionista intenta acceder a la opción “Registrar Médico”.
+  2. El sistema detecta que no hay sesión activa.
+  3. El sistema redirige a la pantalla de login.  
+- Postcondición: El formulario de registro no es accesible sin autenticación.
+
