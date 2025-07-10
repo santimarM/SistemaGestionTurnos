@@ -1,4 +1,15 @@
-# **Diagramas UML**
+# Diagramas UML
+
+A continuación, se presentan los diagramas UML elaborados:
+
+## Lista de Diagramas UML
+
+- Diagrama de Clases
+- Diagrama de Casos de Uso
+- Diagramas de Actividades (x5)
+- Diagramas de Secuencia (x5)
+
+## Enlaces
 
 - [Diagramas de Casos de Uso](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramas_de_casos_de_uso.md)
  
