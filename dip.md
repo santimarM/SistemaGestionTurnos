@@ -3,13 +3,16 @@
 ### Propósito del Principio:
 Las clases deben depender de abstracciones (interfaces), no de implementaciones concretas.
 
-### Motivación:
-La clase `Sistema` creaba instancias concretas de `EmailNotificador`, lo que dificultaba el cambio de canal de notificación.
+## Problema identificado
 
-### Aplicación:
-Se inyecta una instancia de `INotificador` al sistema mediante el constructor o un patrón como fábrica o inyección de dependencias. Esto permite desacoplar la lógica del sistema de la implementación concreta de notificaciones.
+`GestorTurnos` dependía directamente de `RepositorioTurnos`, lo cual hacía difícil cambiar la forma de almacenamiento.
+
+## Ejemplo aplicado
+
+Definimos una interfaz `ITurnoRepository` y `RepositorioTurnosSQL` como implementación.
 
 
 A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio DIP:
 
- ![Diagrama UML](https://github.com/user-attachments/assets/7b493c19-eb59-4d65-8444-4bf0a67f5d89)
+
+<img width="243" height="374" alt="DIP" src="https://github.com/user-attachments/assets/37705489-4696-4d83-aa27-7a398bd20eeb" />
