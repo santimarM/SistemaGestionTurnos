@@ -3,12 +3,12 @@
 ### Propósito del Principio:
 Ninguna clase debe estar obligada a depender de interfaces que no utiliza.
 
-### Motivación:
-En el sistema inicial, la clase `Usuario` tenía métodos tanto para médicos como para pacientes, aunque no todos los usuarios necesitaban las mismas funciones.
+## Problema identificado
 
-### Aplicación:
-Se segregaron las interfaces en `ITurno` y `IPago`, cada una con los métodos específicos que cada tipo de usuario necesita implementar, evitando dependencias innecesarias.
+Una interfaz general `IUsuario` tenía métodos que no aplicaban a todos los usuarios (ej. `verHistorial()` para un paciente).
 
-A continuación, se muestra un diagrama UML que ilustra cómo las clases principales del proyecto se relacionan entre sí al aplicar el principio ISP
+## Ejemplo aplicado
 
- ![Diagrama UML](https://github.com/user-attachments/assets/f2ada9b4-7b52-4eec-9ab5-a3c3388348a9)
+Se dividen las interfaces según roles específicos.
+
+<img width="509" height="201" alt="isp" src="https://github.com/user-attachments/assets/54f196ff-efe3-400d-b41a-b9fb35a336f7" />
