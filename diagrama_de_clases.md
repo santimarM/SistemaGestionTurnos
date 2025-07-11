@@ -1,1 +1,2 @@
-![ae58532e-e95b-44c4-9826-b6cf493e850c](https://github.com/user-attachments/assets/2617a49a-e186-4c6e-a2a7-b346c8faf985)
+
+<img width="1024" height="1536" alt="diagrama de clase" src="https://github.com/user-attachments/assets/40127175-afcc-4e54-9d45-731227abfa04" />
