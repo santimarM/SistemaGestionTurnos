@@ -1,34 +1,31 @@
-# Anexo - Aplicación de Patrón de Diseño Creacional - Singleton
+# Patrón de Diseño Creacional
 
-## ¿Qué son los patrones creacionales?
+## Nombre del patrón: Factory Method
 
-Los patrones de diseño creacionales se encargan de la **creación de objetos**. Permiten encapsular la lógica de instancia, evitando la creación directa y facilitando el control del ciclo de vida.
+## Problema que soluciona
+Permite instanciar distintos tipos de turnos (presenciales y virtuales) sin que el sistema esté acoplado a las clases concretas. Esto facilita la escalabilidad del sistema para agregar nuevos tipos de turnos sin modificar código existente.
 
----
+## Implementación en el proyecto
 
-## Propósito y Tipo del Patrón
+Se crea una interfaz `TurnoFactory` con el método `crearTurno(...)`. Las fábricas concretas como `TurnoPresencialFactory` y `TurnoVirtualFactory` implementan este método, devolviendo instancias de `TurnoPresencial` y `TurnoVirtual`, respectivamente.
 
-**Patrón:** Singleton  
-**Tipo:** Creacional
+La clase `SistemaTurnos` usa una fábrica concreta, pero solo conoce la interfaz `TurnoFactory`, lo que desacopla la lógica de creación del tipo de turno.
 
-**Problema detectado:**  
-En un sistema de turnos médicos, es necesario asegurar que haya **una única instancia central de agenda** que controle los turnos disponibles, evitando inconsistencias o duplicación de datos si se accede desde múltiples lugares.
+## Clases involucradas
 
-**Solución:**  
-El patrón Singleton asegura que solo haya una instancia de la clase `AgendaTurnos`, accesible globalmente y sincronizada para todos los usuarios.
+- **TurnoFactory** (interfaz): define el método `crearTurno(...)`.
+- **TurnoPresencialFactory** / **TurnoVirtualFactory**: implementan la interfaz y crean sus tipos de turno.
+- **Turno** (abstracta o clase base).
+- **TurnoPresencial** / **TurnoVirtual**: heredan de `Turno`.
 
----
+## Relación con principios SOLID
 
-## Motivación
+- **S - Single Responsibility Principle (SRP)**: cada clase tiene una única responsabilidad (crear un tipo específico de turno).
+- **O - Open/Closed Principle (OCP)**: se pueden agregar nuevos tipos de turnos sin modificar las clases existentes.
+- **D - Dependency Inversion Principle (DIP)**: el sistema depende de la abstracción `TurnoFactory`, no de implementaciones concretas.
 
-La agenda de turnos debe ser única y centralizada para que todos los módulos (paciente, médico, recepcionista) accedan y modifiquen el mismo objeto. La creación de múltiples instancias llevaría a errores graves (como turnos duplicados o inconsistentes). Singleton permite:
+## Diagrama UML del patrón
 
-- Centralizar el acceso.
-- Evitar múltiples instancias.
-- Asegurar integridad de la información.
+<img width="1024" height="1024" alt="factori" src="https://github.com/user-attachments/assets/ae1b4251-ed4c-462c-9626-65784dd90734" />
 
----
-
-## Estructura de Clases (Diagrama UML)
-![diseñocreacional drawio](https://github.com/user-attachments/assets/9b2fb9c8-b0cd-4ca0-aeb2-fda3b5c913a5)
 
