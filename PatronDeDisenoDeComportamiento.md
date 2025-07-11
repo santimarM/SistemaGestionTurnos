@@ -1,36 +1,30 @@
-# Anexo - Aplicación de Patrón de Diseño de Comportamiento - Observer
+# Patrón de Diseño de Comportamiento
 
-## ¿Qué son los patrones de comportamiento?
+## Nombre del patrón: Observer
 
-Los patrones de comportamiento definen cómo **los objetos interactúan entre sí**, promoviendo una comunicación flexible y desacoplada.
+## Problema que soluciona
+El sistema necesita notificar automáticamente a distintos observadores (como pacientes o médicos) cuando se genera o actualiza un turno, sin acoplar fuertemente estas clases entre sí. Se busca mantener una arquitectura flexible y extensible.
 
----
+## Implementación en el proyecto
 
-##  Propósito y Tipo del Patrón
+Se define una interfaz `Observador` con el método `actualizar(turno: Turno): void`.  
+La clase `Turno` actúa como **Sujeto (Subject)** y mantiene una lista de observadores (como `Paciente` y `Medico`).  
+Cuando se modifica el turno, el sistema llama a `notificar()` para que todos los observadores registrados reaccionen en consecuencia.
 
-**Patrón:** Observer  
-**Tipo:** Comportamiento
+## Clases involucradas
 
-**Problema detectado:**  
-Se requiere que diferentes componentes del sistema sean notificados automáticamente cuando se cancela o confirma un turno, sin acoplarlos entre sí.
+- **Turno (Sujeto)**: contiene métodos `agregarObservador()`, `eliminarObservador()`, y `notificar()`.
+- **Observador (Interfaz)**: define el método `actualizar(turno: Turno)`.
+- **Paciente** y **Medico**: implementan `Observador` y definen cómo reaccionar cuando se actualiza un turno.
 
-**Solución:**  
-El patrón Observer permite que objetos como `Paciente`, `Médico` y `Recepcionista` se **suscriban a eventos** del sistema de turnos y reciban actualizaciones en tiempo real.
+## Relación con principios SOLID
 
----
+- **O - Open/Closed Principle**: se pueden agregar nuevos observadores sin modificar el sujeto.
+- **L - Liskov Substitution Principle**: cualquier clase que implemente `Observador` puede reemplazar otra.
+- **D - Dependency Inversion Principle**: el sujeto depende de una abstracción (`Observador`), no de clases concretas.
 
-##  Motivación
+## Diagrama UML del patrón
 
-Actualmente, si un turno es cancelado, no hay una forma automatizada de avisar a todos los implicados. Con Observer:
-
-- `Turno` actúa como "Sujeto" (Subject).
-- `Paciente` y `Médico` actúan como "Observadores" (Observers).
-- Se notifica automáticamente cuando hay cambios.
-
----
-
-##  Estructura de Clases (Diagrama UML)
-![PatronDeDisenoDeComportamiento md drawio](https://github.com/user-attachments/assets/c1bdf15b-b455-44a5-b7ca-4ae3b64a66db)
-
+<img width="1024" height="1024" alt="ultimo }" src="https://github.com/user-attachments/assets/be2b6fb8-13cb-48e5-9722-8c56390f2c5e" />
 
 
