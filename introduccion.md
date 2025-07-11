@@ -101,5 +101,4 @@ Permite que un mismo método se comporte de distintas formas según el objeto qu
 
 ![Boceto](https://github.com/user-attachments/assets/872c14fd-c740-4918-a592-d8b4cf84ee53)
 
-[Boceto en línea (Excalidraw)](https://excalidraw.com/#json=tuIDjson)
 
