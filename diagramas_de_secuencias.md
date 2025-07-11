@@ -4,7 +4,8 @@ A continuación se listan los diagramas de secuencia correspondientes a cada esc
 
 - [Diagrama de Secuencia – Registrar Paciente – Alta desde el sistema](https://github.com/user-attachments/assets/8f1f213a-a6b3-4739-aa59-8f319dd3fc85)
 
-- [Diagrama de Secuencia – Solicitar Turno – Turno solicitado por paciente](https://github.com/user-attachments/assets/d344a4f8-fc19-466c-9dc1-e4ada62d1178)
+- [Diagrama de Secuencia – Solicitar Turno – Turno solicitado por paciente]<img width="1024" height="1024" alt="asignar turno" src="https://github.com/user-attachments/assets/4e83d0f9-adc0-43d0-b28c-5b76b8ce5cf1" />
+
 
 - [Diagrama de Secuencia – Confirmar Turno – Confirmación por parte del médico](https://github.com/user-attachments/assets/3990e4a6-1a59-4acc-8fce-ee30df49e46b)
 
