@@ -1,31 +1,29 @@
-# Anexo - Aplicación de Patrón de Diseño Estructural - Adapter
+# Patrón de Diseño Estructural
 
-## ¿Qué son los patrones estructurales?
+## Nombre del patrón: Adapter
 
-Los patrones estructurales se centran en **la forma en que las clases y objetos se organizan**, permitiendo la colaboración entre interfaces incompatibles.
+## Problema que soluciona
+El sistema necesita enviar notificaciones por distintos canales (email, SMS, etc.). Cada proveedor externo tiene una interfaz diferente. Queremos integrar nuevos servicios sin modificar el código existente del sistema.
 
----
+## Implementación en el proyecto
 
-## Propósito y Tipo del Patrón
+Se define una interfaz común `INotificador` con el método `enviarNotificacion(turno: Turno): void`.  
+Los adaptadores como `AdaptadorEmail` y `AdaptadorSMS` implementan esta interfaz y adaptan el comportamiento de servicios de terceros.
 
-**Patrón:** Adapter  
-**Tipo:** Estructural
+La clase `SistemaTurnos` solo depende de `INotificador`, no importa si internamente se envía un email o un SMS. Así, podemos agregar nuevos canales sin tocar el código del sistema.
 
-**Problema detectado:**  
-El sistema necesita conectarse a distintos formatos de historial médico externos, pero las interfaces no son compatibles con el modelo interno.
+## Clases involucradas
 
-**Solución:**  
-El Adapter actúa como un **puente entre el historial externo y la estructura interna**, traduce las llamadas y permite que el sistema procese los datos correctamente.
+- **INotificador**: interfaz con el método `enviarNotificacion(turno: Turno): void`.
+- **AdaptadorEmail** / **AdaptadorSMS**: adaptadores concretos que implementan la interfaz y traducen la llamada a servicios externos.
+- **ServicioEmailExterno** / **ServicioSMSExterno**: clases simuladas de servicios externos con interfaces distintas.
 
----
+## Relación con principios SOLID
 
-## Motivación
+- **S - Single Responsibility Principle (SRP)**: cada adaptador tiene la única responsabilidad de traducir una interfaz.
+- **O - Open/Closed Principle (OCP)**: se pueden agregar nuevos canales de notificación sin modificar el sistema.
+- **D - Dependency Inversion Principle (DIP)**: el sistema depende de una abstracción (`INotificador`), no de implementaciones concretas.
 
-Hay diferentes proveedores de sistemas de salud que almacenan los historiales en formatos diversos. No es posible modificar cada uno, pero sí implementar un `AdapterHistorialExterno` que traduzca estos datos al formato esperado por `Paciente`.
+## Diagrama UML del patrón
 
----
-
-## Estructura de Clases (Diagrama UML)
-
-![PatronDeDisenoEstructural md drawio](https://github.com/user-attachments/assets/7d2d36a8-bc12-489b-94e5-5e718c6c986f)
 
