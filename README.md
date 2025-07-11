@@ -12,7 +12,6 @@ A través del diseño orientado a objetos, se busca aplicar buenas prácticas de
 # **Diagramas y diseños**
 *  [Anexo](https://github.com/santimarM/SistemaGestionTurnos/blob/main/anexos.md)
 *  [Diagrama UML](https://github.com/santimarM/SistemaGestionTurnos/blob/main/diagramasUML.md)
-*  [Heramientas Agile](https://github.com/santimarM/SistemaGestionTurnos/blob/main/herramientas_agile.md)
 
  
 
