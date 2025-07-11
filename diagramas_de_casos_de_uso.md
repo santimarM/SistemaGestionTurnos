@@ -10,13 +10,18 @@
 
 ## Enlaces
 
-- [Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/6fdd43bb-6573-42a7-84ad-5361e2e9f434)
+- [Caso de Uso 1 - Registrar usuario](https://github.com/user-attachments/assets/9aa1850d-8a66-4832-a58d-d81ddf6fbaf2)
 
-- [Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/2d0c72eb-8f82-49dd-996f-6603836fbad8)
 
-- [Caso de Uso 3- Confirmar Turno](https://github.com/user-attachments/assets/8cbbf9df-6f6b-4b24-9e56-215df27b432e)
+- [Caso de Uso 2 - Asignar Turno ](https://github.com/user-attachments/assets/b7fa336a-6414-4127-83c3-edde077537c0)
 
-- [Caso de Uso 4- Registrar Medico](https://github.com/user-attachments/assets/8a11762d-0ad9-4c14-8a0d-f372cbb50fc0)
 
-- [Caso de Uso 5 - Historial de Turnos  ](https://github.com/user-attachments/assets/81cbc07a-3edf-4012-8345-ea4e984bcc3e)
+- [Caso de Uso 3- Confirmar Turno](https://github.com/user-attachments/assets/e249b7f3-428d-444c-9354-d371c190bd97)
+
+
+- [Caso de Uso 4- Registrar Medico](https://github.com/user-attachments/assets/dce75755-9bee-4a6a-b14c-bab72a97bca9)
+
+
+- [Caso de Uso 5 - Historial de Turnos](https://github.com/user-attachments/assets/7f0ec665-c445-4882-b27d-2d20969f3e15)
+
 
