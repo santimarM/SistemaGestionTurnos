@@ -2,14 +2,17 @@
 
 A continuación se listan los diagramas de secuencia correspondientes a cada escenario:
 
-- [Diagrama de Secuencia – Registrar Paciente – Alta desde el sistema](https://github.com/user-attachments/assets/8f1f213a-a6b3-4739-aa59-8f319dd3fc85)
-
-- [Diagrama de Secuencia – Solicitar Turno – Turno solicitado por paciente]<img width="1024" height="1024" alt="asignar turno" src="https://github.com/user-attachments/assets/4e83d0f9-adc0-43d0-b28c-5b76b8ce5cf1" />
+- [Diagrama de secuencia – Registrar Paciente](https://github.com/user-attachments/assets/e91e1125-3e9b-4dc8-a34d-83af176177e3)
 
 
-- [Diagrama de Secuencia – Confirmar Turno – Confirmación por parte del médico](https://github.com/user-attachments/assets/3990e4a6-1a59-4acc-8fce-ee30df49e46b)
+- [Diagrama de secuencia – Solicitar Turno](https://github.com/user-attachments/assets/9f456027-a5e0-4763-b8c5-35c199aeec7e)
 
-- [Diagrama de Secuencia – Cancelar Turno – Cancelación desde la app](https://github.com/user-attachments/assets/294ccd1f-9f1b-4513-8746-3d8f0816928b)
 
-- [Diagrama de Secuencia – Consultar Historial – Visualización del historial por paciente](https://github.com/user-attachments/assets/495cda4c-6bdb-425e-b140-0ae5485930e9)
+- [Diagrama de secuencia – Cancelar turno](https://github.com/user-attachments/assets/05311b97-d1e0-4ff3-8bc1-3a55f10571e1)
+
+
+- [Diagrama de secuencia – Consultar Historial Medico](https://github.com/user-attachments/assets/d1337a2d-d225-4c97-a389-3a195a11b7b4)
+
+
+- [Diagrama de secuencia – Registrar Medico](https://github.com/user-attachments/assets/e2f06b64-7d0a-4a16-8bc2-fb5e1a98991e)
 
