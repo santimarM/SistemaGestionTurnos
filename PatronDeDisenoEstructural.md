@@ -26,4 +26,6 @@ La clase `SistemaTurnos` solo depende de `INotificador`, no importa si intername
 
 ## Diagrama UML del patrón
 
+<img width="1536" height="1024" alt="patron estructural" src="https://github.com/user-attachments/assets/7a93b483-2ec9-436e-936b-b61751c1c25d" />
+
 
